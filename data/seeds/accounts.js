@@ -1,3 +1,4 @@
+const server = require("../../api/server");
 
 exports.seed = function(knex, Promise) {
   return knex('accounts').truncate()
@@ -19,3 +20,5 @@ exports.seed = function(knex, Promise) {
       ]);
     });
 };
+
+
